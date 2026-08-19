@@ -19,7 +19,6 @@ async function bootstrap() {
     new FastifyAdapter(),
   );
 
-  // Validation
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
@@ -28,31 +27,27 @@ async function bootstrap() {
     }),
   );
 
-  // CORS
   app.enableCors({
-    origin: 'http://localhost:5000',
+    origin: true,
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
     credentials: true,
   });
 
-  // File Upload
   await app.register(multipart, {
     limits: {
-      fileSize: 5 * 1024 * 1024, // 5 MB
+      fileSize: 5 * 1024 * 1024,
     },
   });
 
-  // Static Files
   await app.register(fastifyStatic, {
     root: join(process.cwd(), 'uploads'),
     prefix: '/uploads/',
   });
 
-  // Start Server
- await app.listen({
-   port: Number(process.env.PORT) || 3000,
-   host: '0.0.0.0',
- });
+  await app.listen({
+    port: Number(process.env.PORT) || 3000,
+    host: '0.0.0.0',
+  });
 }
 
 bootstrap();
