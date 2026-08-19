@@ -36,14 +36,17 @@ export class MailService {
       }),
     });
 
-    if (!response.ok) {
-      const error = await response.text();
+   if (!response.ok) {
+     const error = await response.text();
 
-      console.error('Brevo API error:', error);
+     console.error('Brevo API error:', {
+       status: response.status,
+       statusText: response.statusText,
+       body: error,
+     });
 
-      throw new InternalServerErrorException('Failed to send email');
-    }
-
+     throw new InternalServerErrorException(`Brevo error: ${error}`);
+   }
     return response.json();
   }
 }
