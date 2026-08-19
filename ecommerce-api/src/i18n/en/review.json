@@ -1,0 +1,6 @@
+{
+  "NOT_FOUND": "Review not found",
+  "ALREADY_REVIEWED": "You have already reviewed this product",
+  "CANNOT_UPDATE": "You cannot update another user's review",
+  "CANNOT_DELETE": "You cannot delete another user's review"
+}

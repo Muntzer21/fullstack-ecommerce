@@ -1,0 +1,8 @@
+{
+  "USER_NOT_FOUND": "User not found",
+  "PRODUCT_NOT_FOUND": "Product #{{id}} not found",
+  "OUT_OF_STOCK": "{{name}} is out of stock",
+  "ORDER_NOT_FOUND": "Order not found",
+  "ALREADY_STATUS": "Order is already {{status}}",
+  "CANNOT_CANCEL": "Cannot cancel shipped or delivered orders"
+}

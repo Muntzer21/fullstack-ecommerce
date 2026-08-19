@@ -1,0 +1,8 @@
+{
+  "USER_NOT_FOUND": "المستخدم غير موجود",
+  "ORDER_NOT_FOUND": "الطلب غير موجود",
+  "ORDER_ALREADY_STATUS": "الطلب حالته بالفعل {{status}}",
+  "CANNOT_CANCEL": "لا يمكن إلغاء الطلب بعد الشحن أو التسليم",
+  "PRODUCT_NOT_FOUND": "المنتج رقم {{id}} غير موجود",
+  "OUT_OF_STOCK": "المنتج {{name}} غير متوفر في المخزون"
+}

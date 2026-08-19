@@ -1,0 +1,441 @@
+{
+  "header": {
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "myOrders": "My Orders",
+    "about": "About Us",
+    "contact": "Contact",
+    "dashboart":"Dashboart",
+
+    "login": "Login / Register",
+    "logout": "Logout",
+
+    "english": "English",
+    "arabic": "العربية"
+  },
+  "hero": {
+    "badge": "New Collection",
+    "title": "Discover Your Favorite Products",
+    "description": "Shop thousands of premium products at the best prices.",
+    "button": "Shop Now"
+  },
+
+  "categories": {
+    "title": "Shop by Category",
+    "viewAll": "View all categories"
+  },
+
+  "featuredProducts": {
+    "title": "Featured Products",
+    "viewAll": "View all products"
+  },
+  "about": {
+    "heroTitle": "About ShopEase",
+    "heroDescription": "We connect people with quality products, affordable prices, and an excellent shopping experience.",
+
+    "storyTitle": "Our Story",
+    "storyParagraph1": "ShopEase was founded with one simple goal: make online shopping easier, faster, and more enjoyable.",
+    "storyParagraph2": "We carefully select products from trusted suppliers to ensure every customer receives quality items with excellent service.",
+
+    "features": {
+      "title": "Why Choose Us",
+
+      "fastShipping": {
+        "title": "Fast Shipping",
+        "description": "Quick delivery worldwide."
+      },
+
+      "securePayment": {
+        "title": "Secure Payment",
+        "description": "100% safe transactions."
+      },
+
+      "qualityProducts": {
+        "title": "Quality Products",
+        "description": "Carefully selected products."
+      },
+
+      "support": {
+        "title": "24/7 Support",
+        "description": "Always ready to help."
+      }
+    },
+
+    "happyCustomers": "Happy Customers",
+    "products": "Products",
+    "customerSatisfaction": "Customer Satisfaction",
+    "supportShort": "Support"
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "description": "We'd love to hear from you."
+    },
+
+    "form": {
+      "title": "Send us a Message",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "button": "Send Message"
+    },
+
+    "info": {
+      "title": "Contact Information",
+
+      "address": "Address",
+      "addressValue": "Basrah, Iraq",
+
+      "phone": "Phone",
+
+      "email": "Email",
+
+      "workingHours": "Working Hours",
+      "workingDays": "Monday - Friday",
+      "workingTime": "9:00 AM - 6:00 PM"
+    }
+  },
+  "productsPage": {
+    "title": "Products",
+    "description": "Browse all available products.",
+    "search": "Search products...",
+    "categories": "Categories",
+    "allProducts": "All Products",
+    "noProducts": "No products found."
+  },
+  "categoriesPage": {
+    "title": "Categories",
+    "description": "Browse all product categories."
+  },
+  "cartPage": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "orderSummary": "Order Summary",
+    "total": "Total",
+    "checkout": "Checkout",
+    "quantity": "Quantity",
+    "price": "Price",
+    "remove": "Remove"
+  },
+  "checkoutPage": {
+    "title": "Checkout",
+    "customerInfo": "Customer Information",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "deliveryAddress": "Delivery Address",
+    "governorate": "Governorate",
+    "city": "City",
+    "street": "Street",
+    "landmark": "Nearby Landmark",
+    "paymentMethod": "Payment Method",
+    "cashOnDelivery": "Cash on Delivery",
+    "cashDescription": "Pay when your order arrives.",
+    "orderSummary": "Order Summary",
+    "total": "Total",
+    "placeOrder": "Place Order"
+  },
+  "auth": {
+    "registerTitle": "Create Account",
+    "registerDescription": "Create your account to start shopping.",
+    "loginTitle": "Welcome Back",
+    "loginDescription": "Sign in to continue shopping.",
+    "verifyTitle": "Verify Your Email",
+    "verifyDescription": "Enter the verification code sent to your email.",
+
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "verificationCode": "Verification Code",
+
+    "createAccount": "Create Account",
+    "creatingAccount": "Creating...",
+    "signIn": "Sign In",
+    "signingIn": "Signing In...",
+    "verifyEmail": "Verify Email",
+    "verifying": "Verifying...",
+
+    "createNewAccount": "Create Account",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+
+    "passwordTooShort": "Password must be at least 8 characters.",
+    "somethingWentWrong": "Something went wrong.",
+    "invalidVerificationCode": "Invalid verification code.",
+    "verificationPlaceholder": "Enter 6-digit code",
+
+    "checkoutRegisterMessage": "You must sign in or create an account before continuing to checkout.",
+    "checkoutLoginMessage": "You must sign in before continuing to checkout."
+  },
+  "ordersPage": {
+    "title": "My Orders",
+
+    "emptyTitle": "No Orders Yet",
+    "emptyDescription": "You haven't placed any orders yet.",
+
+    "loading": "Loading...",
+
+    "order": "Order",
+    "orderSummary": "Order Summary",
+
+    "products": "Products",
+
+    "viewDetails": "View Details",
+
+    "quantity": "Quantity",
+
+    "status": "Status",
+    "items": "Items",
+    "total": "Total"
+  },
+  "system": {
+    "loading": "Loading...",
+    "errorTitle": "Oops!",
+    "errorDescription": "Something went wrong.",
+    "tryAgain": "Try Again",
+    "notFoundTitle": "Page Not Found",
+    "notFoundDescription": "Sorry, the page you are looking for does not exist.",
+    "backHome": "Back to Home"
+  },
+  "productReviews": {
+    "title": "Reviews",
+    "loading": "Loading reviews...",
+    "empty": "No reviews yet.",
+    "customer": "Customer",
+    "addReview": "Add a Review",
+    "rating": "Rating",
+    "comment": "Comment",
+    "commentPlaceholder": "Write your review...",
+    "submit": "Submit Review",
+    "submitting": "Submitting...",
+    "success": "Your review has been added successfully.",
+    "error": "Something went wrong.",
+    "loadError": "Failed to load reviews.",
+    "commentRequired": "Please write a comment.",
+    "loginRequired": "You must be logged in to write a review.",
+    "login": "Login"
+  },
+  "dashboardReviews": {
+    "title": "Reviews",
+    "customer": "Customer",
+    "product": "Product",
+    "rating": "Rating",
+    "comment": "Comment",
+    "date": "Date",
+    "action": "Action",
+    "delete": "Delete",
+    "deleteConfirm": "Are you sure you want to delete this review?",
+    "deleteError": "Failed to delete review.",
+    "loadError": "Failed to load reviews.",
+    "loading": "Loading reviews...",
+    "empty": "No reviews found.",
+    "retry": "Try Again",
+    "unknown": "Unknown"
+  },
+  
+  "dashboard": {
+    "title": "Dashboard",
+
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "products": "Products",
+      "categories": "Categories",
+      "orders": "Orders",
+      "reviews": "Reviews",
+      "admins": "Admins",
+      "settings": "Settings"
+    },
+
+    "header": {
+      "title": "ShopEase Admin",
+      "administrator": "Administrator"
+    },
+
+    "products": {
+      "title": "Products",
+      "description": "Manage your store products.",
+      "addProduct": "Add Product",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleteConfirm": "Delete product?",
+      "image": "Image",
+      "name": "Name",
+      "category": "Category",
+      "price": "Price",
+      "stock": "Stock",
+      "englishName": "English Name",
+      "arabicName": "Arabic Name",
+      "englishDescription": "English Description",
+      "arabicDescription": "Arabic Description",
+      "currentImage": "Current Product Image",
+      "changeImage": "Change Product Image",
+      "productImage": "Product Image",
+      "currentImageKept": "Current image will be kept unless you select a new image.",
+      "imageUploaded": "Image uploaded successfully.",
+      "selectCategory": "Select Category",
+      "saving": "Saving...",
+      "createProduct": "Create Product",
+      "updateProduct": "Update Product",
+      "loadError": "Failed to load product.",
+      "somethingWrong": "Something went wrong.",
+      "uploadError": "Failed to upload image.",
+      "editProduct": "Edit Product",
+      "createDescription": "Add a new product to your store."
+    },
+
+    "categories": {
+      "title": "Categories",
+      "createCategory": "Create Category",
+      "editCategory": "Edit Category",
+
+      "editDescription": "Update category information.",
+      "createDescription": "Add a new product category.",
+"updateCategory": "Update Category",
+      "id": "ID",
+      "englishName": "English Name",
+      "arabicName": "Arabic Name",
+      "actions": "Actions",
+
+      "edit": "Edit",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      
+
+      "loading": "Loading...",
+      "saving": "Saving...",
+      "creating": "Creating...",
+
+      "loadError": "Failed to load categories.",
+      "deleteError": "Failed to delete category.",
+      "updateError": "Failed to update category.",
+      "createError": "Failed to create category.",
+
+      "deleteConfirm": "Are you sure you want to delete this category?",
+
+      "emptyTitle": "No Categories",
+      "emptyDescription": "You haven't created any categories yet.",
+
+      "englishPlaceholder": "Electronics",
+      "arabicPlaceholder": "الإلكترونيات"
+    },
+    "orders": {
+      "title": "Orders",
+      "description": "Manage customer orders and their status.",
+      "order": "Order",
+      "customer": "Customer",
+      "notFound": "Order Not Found",
+      "notFoundDescription": "This order does not exist.",
+      "date": "Date",
+      "total": "Total",
+      "status": "Status",
+      "action": "Action",
+      "view": "View",
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page",
+      "noOrders": "No orders found.",
+      "loading": "Loading orders...",
+      "loadError": "Failed to load orders.",
+      "invalidResponse": "Invalid orders response from server.",
+
+      "pending": "PENDING",
+      "processing": "PROCESSING",
+      "shipped": "SHIPPED",
+      "delivered": "DELIVERED",
+      "cancelled": "CANCELLED",
+
+      "details": {
+        "title": "Order",
+        "back": "Back to Orders",
+        "customer": "Customer",
+        "name": "Name",
+        "email": "Email",
+        "orderStatus": "Order Status",
+        "summary": "Order Summary",
+        "items": "Items",
+        "total": "Total",
+        "products": "Products",
+        "quantity": "Quantity",
+        "price": "Price"
+      }
+    },
+
+    "reviews": {
+      "title": "Reviews",
+      "description": "Manage customer reviews",
+      "customer": "Customer",
+      "product": "Product",
+      "rating": "Rating",
+      "comment": "Comment",
+      "date": "Date",
+      "action": "Action",
+      "delete": "Delete",
+      "deleteConfirm": "Are you sure you want to delete this review?",
+      "deleteError": "Failed to delete review.",
+      "loadError": "Failed to load reviews.",
+      "loading": "Loading reviews...",
+      "empty": "No reviews found.",
+      "retry": "Try Again",
+      "unknown": "Unknown"
+    },
+
+    "admins": {
+      "title": "Admins",
+      "description": "Manage administrator accounts",
+      "id": "ID",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "action": "Action",
+      "user": "USER",
+      "admin": "ADMIN",
+      "makeAdmin": "Make Admin",
+      "removeAdmin": "Remove Admin",
+      "loading": "Loading users...",
+      "loadError": "Failed to load users.",
+      "updateError": "Failed to update role"
+    },
+
+    "settings": {
+      "title": "Settings",
+      "description": "Manage your account and security settings",
+
+      "profile": {
+        "title": "Profile",
+        "description": "Your administrator account information",
+        "name": "Name",
+        "email": "Email"
+      },
+
+      "security": {
+        "title": "Security",
+        "description": "Change your account password",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "currentPlaceholder": "Enter current password",
+        "newPlaceholder": "Enter new password",
+        "confirmPlaceholder": "Confirm new password",
+        "changePassword": "Change Password"
+      },
+
+      "store": {
+        "title": "Store",
+        "description": "Store information",
+        "name": "Store Name",
+        "currency": "Currency",
+        "nameValue": "ShopEase",
+        "currencyValue": "USD"
+      }
+    },
+
+    "dashboardCards": {
+      "products": "Products",
+      "categories": "Categories",
+      "orders": "Orders",
+      "reviews": "Reviews"
+    }
+  }
+
+}

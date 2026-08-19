@@ -1,0 +1,443 @@
+{
+  "header": {
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "categories": "الفئات",
+    "myOrders": "طلباتي",
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "dashboart":"لوحة التحكم",
+
+    "login": "تسجيل الدخول / إنشاء حساب",
+    "logout": "تسجيل الخروج",
+
+    "english": "English",
+    "arabic": "العربية"
+  },
+  "hero": {
+    "badge": "مجموعة جديدة",
+    "title": "اكتشف منتجاتك المفضلة",
+    "description": "تسوق آلاف المنتجات المميزة بأفضل الأسعار.",
+    "button": "تسوق الآن"
+  },
+
+  "categories": {
+    "title": "تسوق حسب الفئة",
+    "viewAll": "عرض جميع الفئات"
+  },
+
+  "featuredProducts": {
+    "title": "المنتجات المميزة",
+    "viewAll": "عرض جميع المنتجات"
+  },
+  "about": {
+    "heroTitle": "من نحن",
+    "heroDescription": "نربط العملاء بمنتجات عالية الجودة وأسعار مناسبة وتجربة تسوق مميزة.",
+
+    "storyTitle": "قصتنا",
+    "storyParagraph1": "تأسست ShopEase بهدف بسيط وهو جعل التسوق الإلكتروني أسهل وأسرع وأكثر متعة.",
+    "storyParagraph2": "نختار منتجاتنا بعناية من موردين موثوقين لضمان حصول عملائنا على أفضل جودة مع خدمة ممتازة.",
+
+    "features": {
+      "title": "لماذا تختارنا",
+
+      "fastShipping": {
+        "title": "شحن سريع",
+        "description": "توصيل سريع إلى جميع أنحاء العالم."
+      },
+
+      "securePayment": {
+        "title": "دفع آمن",
+        "description": "معاملات آمنة بنسبة 100٪."
+      },
+
+      "qualityProducts": {
+        "title": "منتجات عالية الجودة",
+        "description": "منتجات مختارة بعناية."
+      },
+
+      "support": {
+        "title": "دعم 24/7",
+        "description": "فريقنا جاهز للمساعدة في أي وقت."
+      }
+    },
+
+    "happyCustomers": "عملاء سعداء",
+    "products": "منتجات",
+    "customerSatisfaction": "رضا العملاء",
+    "supportShort": "الدعم"
+  },
+  "contact": {
+    "hero": {
+      "title": "اتصل بنا",
+      "description": "يسعدنا التواصل معك."
+    },
+
+    "form": {
+      "title": "أرسل لنا رسالة",
+      "fullName": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "subject": "الموضوع",
+      "message": "رسالتك",
+      "button": "إرسال الرسالة"
+    },
+
+    "info": {
+      "title": "معلومات التواصل",
+
+      "address": "العنوان",
+      "addressValue": "البصرة، العراق",
+
+      "phone": "الهاتف",
+
+      "email": "البريد الإلكتروني",
+
+      "workingHours": "ساعات العمل",
+      "workingDays": "الإثنين - الجمعة",
+      "workingTime": "9:00 صباحًا - 6:00 مساءً"
+    }
+  },
+  "productsPage": {
+    "title": "المنتجات",
+    "description": "تصفح جميع المنتجات المتوفرة.",
+    "search": "ابحث عن المنتجات...",
+    "categories": "الفئات",
+    "allProducts": "جميع المنتجات",
+    "noProducts": "لم يتم العثور على منتجات."
+  },
+
+  "categoriesPage": {
+    "title": "الفئات",
+    "description": "تصفح جميع فئات المنتجات."
+  },
+  "cartPage": {
+    "title": "سلة التسوق",
+    "empty": "سلة التسوق فارغة",
+    "orderSummary": "ملخص الطلب",
+    "total": "الإجمالي",
+    "checkout": "إتمام الطلب",
+    "quantity": "الكمية",
+    "price": "السعر",
+    "remove": "حذف"
+  },
+  "checkoutPage": {
+    "title": "إتمام الطلب",
+    "customerInfo": "معلومات العميل",
+    "fullName": "الاسم الكامل",
+    "phone": "رقم الهاتف",
+    "deliveryAddress": "عنوان التوصيل",
+    "governorate": "المحافظة",
+    "city": "المدينة",
+    "street": "الشارع",
+    "landmark": "أقرب نقطة دالة",
+    "paymentMethod": "طريقة الدفع",
+    "cashOnDelivery": "الدفع عند الاستلام",
+    "cashDescription": "ادفع عند استلام الطلب.",
+    "orderSummary": "ملخص الطلب",
+    "total": "الإجمالي",
+    "placeOrder": "تأكيد الطلب"
+  },
+
+  "auth": {
+    "registerTitle": "إنشاء حساب",
+    "registerDescription": "أنشئ حسابك لبدء التسوق.",
+    "loginTitle": "مرحبًا بعودتك",
+    "loginDescription": "سجل الدخول للمتابعة.",
+    "verifyTitle": "تأكيد البريد الإلكتروني",
+    "verifyDescription": "أدخل رمز التحقق المرسل إلى بريدك الإلكتروني.",
+
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "verificationCode": "رمز التحقق",
+
+    "createAccount": "إنشاء حساب",
+    "creatingAccount": "جاري إنشاء الحساب...",
+    "signIn": "تسجيل الدخول",
+    "signingIn": "جاري تسجيل الدخول...",
+    "verifyEmail": "تأكيد البريد الإلكتروني",
+    "verifying": "جاري التحقق...",
+
+    "createNewAccount": "إنشاء حساب",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "dontHaveAccount": "ليس لديك حساب؟",
+
+    "passwordTooShort": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل.",
+    "somethingWentWrong": "حدث خطأ ما.",
+    "invalidVerificationCode": "رمز التحقق غير صحيح.",
+    "verificationPlaceholder": "أدخل رمز التحقق المكون من 6 أرقام",
+
+    "checkoutRegisterMessage": "يجب تسجيل الدخول أو إنشاء حساب قبل متابعة عملية الشراء.",
+    "checkoutLoginMessage": "يجب تسجيل الدخول قبل متابعة عملية الشراء."
+  },
+  "ordersPage": {
+    "title": "طلباتي",
+
+    "emptyTitle": "لا توجد طلبات بعد",
+    "emptyDescription": "لم تقم بإجراء أي طلب حتى الآن.",
+
+    "loading": "جارٍ التحميل...",
+
+    "order": "الطلب",
+    "orderSummary": "ملخص الطلب",
+
+    "products": "المنتجات",
+
+    "viewDetails": "عرض التفاصيل",
+
+    "quantity": "الكمية",
+
+    "status": "الحالة",
+    "items": "عدد المنتجات",
+    "total": "الإجمالي"
+  },
+  "system": {
+    "loading": "جارٍ التحميل...",
+    "errorTitle": "حدث خطأ",
+    "errorDescription": "حدث خطأ غير متوقع.",
+    "tryAgain": "إعادة المحاولة",
+    "notFoundTitle": "الصفحة غير موجودة",
+    "notFoundDescription": "عذرًا، الصفحة التي تبحث عنها غير موجودة.",
+    "backHome": "العودة للرئيسية"
+  },
+  
+  "productReviews": {
+    "title": "التقييمات",
+    "loading": "جارٍ تحميل التقييمات...",
+    "empty": "لا توجد تقييمات بعد.",
+    "customer": "عميل",
+    "addReview": "أضف تقييمًا",
+    "rating": "التقييم",
+    "comment": "التعليق",
+    "commentPlaceholder": "اكتب تقييمك...",
+    "submit": "إرسال التقييم",
+    "submitting": "جارٍ الإرسال...",
+    "success": "تمت إضافة تقييمك بنجاح.",
+    "error": "حدث خطأ ما.",
+    "loadError": "فشل تحميل التقييمات.",
+    "commentRequired": "يرجى كتابة تعليق.",
+    "loginRequired": "يجب تسجيل الدخول لكتابة تقييم.",
+    "login": "تسجيل الدخول"
+  
+},
+  "dashboardReviews": {
+    "title": "التقييمات",
+    "customer": "العميل",
+    "product": "المنتج",
+    "rating": "التقييم",
+    "comment": "التعليق",
+    "date": "التاريخ",
+    "action": "الإجراء",
+    "delete": "حذف",
+    "deleteConfirm": "هل أنت متأكد من حذف هذا التقييم؟",
+    "deleteError": "فشل حذف التقييم.",
+    "loadError": "فشل تحميل التقييمات.",
+    "loading": "جارٍ تحميل التقييمات...",
+    "empty": "لا توجد تقييمات.",
+    "retry": "إعادة المحاولة",
+    "unknown": "غير معروف"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+
+    "sidebar": {
+      "dashboard": "لوحة التحكم",
+      "products": "المنتجات",
+      "categories": "الفئات",
+      "orders": "الطلبات",
+      "reviews": "المراجعات",
+      "admins": "المشرفون",
+      "settings": "الإعدادات"
+    },
+
+    "header": {
+      "title": "إدارة ShopEase",
+      "administrator": "المشرف"
+    },
+
+    "products": {
+      "title": "المنتجات",
+      "description": "إدارة منتجات المتجر.",
+      "addProduct": "إضافة منتج",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "deleteConfirm": "هل تريد حذف المنتج؟",
+      "image": "الصورة",
+      "name": "الاسم",
+      "category": "الفئة",
+      "price": "السعر",
+      "stock": "المخزون",
+      "englishName": "الاسم بالإنجليزية",
+      "arabicName": "الاسم بالعربية",
+      "englishDescription": "الوصف بالإنجليزية",
+      "arabicDescription": "الوصف بالعربية",
+      "currentImage": "صورة المنتج الحالية",
+      "changeImage": "تغيير صورة المنتج",
+      "productImage": "صورة المنتج",
+      "currentImageKept": "سيتم الاحتفاظ بالصورة الحالية ما لم تختر صورة جديدة.",
+      "imageUploaded": "تم رفع الصورة بنجاح.",
+      "selectCategory": "اختر الفئة",
+      "saving": "جاري الحفظ...",
+      "createProduct": "إنشاء المنتج",
+      "updateProduct": "تحديث المنتج",
+      "loadError": "فشل تحميل المنتج.",
+      "somethingWrong": "حدث خطأ ما.",
+      "uploadError": "فشل رفع الصورة.",
+      "editProduct": "تعديل المنتج",
+      "createDescription": "أضف منتجًا جديدًا إلى متجرك."
+    },
+    "categories": {
+      "title": "الفئات",
+      "createCategory": "إنشاء فئة",
+      "editCategory": "تعديل الفئة",
+
+      "editDescription": "تحديث معلومات الفئة.",
+      "createDescription": "إضافة فئة جديدة للمنتجات.",
+
+      "id": "المعرف",
+      "englishName": "الاسم بالإنجليزية",
+      "arabicName": "الاسم بالعربية",
+      "actions": "الإجراءات",
+
+      "edit": "تعديل",
+      "delete": "حذف",
+      "cancel": "إلغاء",
+
+      "loading": "جارٍ التحميل...",
+      "saving": "جارٍ الحفظ...",
+      "creating": "جارٍ الإنشاء...",
+
+      "loadError": "فشل تحميل الفئات.",
+      "deleteError": "فشل حذف الفئة.",
+      "updateError": "فشل تحديث الفئة.",
+      "createError": "فشل إنشاء الفئة.",
+"updateCategory": "تحديث الفئة",
+      "deleteConfirm": "هل أنت متأكد أنك تريد حذف هذه الفئة؟",
+
+      "emptyTitle": "لا توجد فئات",
+      "emptyDescription": "لم تقم بإنشاء أي فئات حتى الآن.",
+
+      "englishPlaceholder": "Electronics",
+      "arabicPlaceholder": "الإلكترونيات"
+    },
+    "orders": {
+      "title": "الطلبات",
+      "description": "إدارة طلبات العملاء وحالاتها.",
+      "order": "الطلب",
+      "customer": "العميل",
+      "date": "التاريخ",
+      "total": "الإجمالي",
+      "status": "الحالة",
+      "action": "الإجراء",
+      "view": "عرض",
+      "previous": "السابق",
+      "next": "التالي",
+      "page": "الصفحة",
+      "noOrders": "لا توجد طلبات.",
+      "loading": "جاري تحميل الطلبات...",
+      "loadError": "فشل تحميل الطلبات.",
+      "invalidResponse": "استجابة الطلبات من الخادم غير صالحة.",
+      "notFound": "الطلب غير موجود",
+      "notFoundDescription": "هذا الطلب غير موجود.",
+      "pending": "قيد الانتظار",
+      "processing": "قيد المعالجة",
+      "shipped": "تم الشحن",
+      "delivered": "تم التسليم",
+      "cancelled": "ملغى",
+
+      "details": {
+        "title": "الطلب",
+        "back": "العودة إلى الطلبات",
+        "customer": "العميل",
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "orderStatus": "حالة الطلب",
+        "summary": "ملخص الطلب",
+        "items": "العناصر",
+        "total": "الإجمالي",
+        "products": "المنتجات",
+        "quantity": "الكمية",
+        "price": "السعر"
+      }
+    },
+
+    "reviews": {
+      "title": "المراجعات",
+      "description": "إدارة مراجعات العملاء",
+      "customer": "العميل",
+      "product": "المنتج",
+      "rating": "التقييم",
+      "comment": "التعليق",
+      "date": "التاريخ",
+      "action": "الإجراء",
+      "delete": "حذف",
+      "deleteConfirm": "هل أنت متأكد من حذف هذه المراجعة؟",
+      "deleteError": "فشل حذف المراجعة.",
+      "loadError": "فشل تحميل المراجعات.",
+      "loading": "جاري تحميل المراجعات...",
+      "empty": "لا توجد مراجعات.",
+      "retry": "حاول مرة أخرى",
+      "unknown": "غير معروف"
+    },
+
+    "admins": {
+      "title": "المشرفون",
+      "description": "إدارة حسابات المشرفين",
+      "id": "المعرف",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "role": "الدور",
+      "action": "الإجراء",
+      "user": "مستخدم",
+      "admin": "مشرف",
+      "makeAdmin": "تعيين كمشرف",
+      "removeAdmin": "إزالة صلاحية المشرف",
+      "loading": "جاري تحميل المستخدمين...",
+      "loadError": "فشل تحميل المستخدمين.",
+      "updateError": "فشل تحديث الدور"
+    },
+
+    "settings": {
+      "title": "الإعدادات",
+      "description": "إدارة حسابك وإعدادات الأمان",
+
+      "profile": {
+        "title": "الملف الشخصي",
+        "description": "معلومات حساب المشرف الخاص بك",
+        "name": "الاسم",
+        "email": "البريد الإلكتروني"
+      },
+
+      "security": {
+        "title": "الأمان",
+        "description": "تغيير كلمة مرور حسابك",
+        "currentPassword": "كلمة المرور الحالية",
+        "newPassword": "كلمة المرور الجديدة",
+        "confirmPassword": "تأكيد كلمة المرور الجديدة",
+        "currentPlaceholder": "أدخل كلمة المرور الحالية",
+        "newPlaceholder": "أدخل كلمة المرور الجديدة",
+        "confirmPlaceholder": "أكد كلمة المرور الجديدة",
+        "changePassword": "تغيير كلمة المرور"
+      },
+
+      "store": {
+        "title": "المتجر",
+        "description": "معلومات المتجر",
+        "name": "اسم المتجر",
+        "currency": "العملة",
+        "nameValue": "ShopEase",
+        "currencyValue": "USD"
+      }
+    },
+
+    "dashboardCards": {
+      "products": "المنتجات",
+      "categories": "الفئات",
+      "orders": "الطلبات",
+      "reviews": "المراجعات"
+    }
+  }
+
+
+}
+

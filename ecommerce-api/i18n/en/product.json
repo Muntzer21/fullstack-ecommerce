@@ -1,0 +1,5 @@
+{
+  "NOT_FOUND": "Product not found",
+  "ALREADY_EXISTS": "Product already exists",
+  "OUT_OF_STOCK": "Product is out of stock"
+}
