@@ -1,15 +1,49 @@
-import { Injectable } from '@nestjs/common';
-import { MailerService } from '@nestjs-modules/mailer';
+import { Injectable, InternalServerErrorException } from '@nestjs/common';
 
 @Injectable()
 export class MailService {
-  constructor(private readonly mailerService: MailerService) {}
-
   async sendEmail(to: string, subject: string, html: string) {
-    return this.mailerService.sendMail({
-      to,
-      subject,
-      html,
+    const apiKey = process.env.BREVO_API_KEY;
+    const from = process.env.MAIL_FROM;
+
+    if (!apiKey) {
+      throw new Error('BREVO_API_KEY is not configured');
+    }
+
+    if (!from) {
+      throw new Error('MAIL_FROM is not configured');
+    }
+
+    const response = await fetch('https://api.brevo.com/v3/smtp/email', {
+      method: 'POST',
+      headers: {
+        accept: 'application/json',
+        'api-key': apiKey,
+        'content-type': 'application/json',
+      },
+      body: JSON.stringify({
+        sender: {
+          name: 'ShopBasra',
+          email: from,
+        },
+        to: [
+          {
+            email: to,
+          },
+        ],
+        subject,
+        htmlContent: html,
+      }),
     });
+
+    if (!response.ok) {
+      const error = await response.text();
+
+      console.error('Brevo API error:', error);
+
+      throw new InternalServerErrorException('Failed to send email');
+    }
+
+    return response.json();
   }
 }
